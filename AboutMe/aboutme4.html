@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+    <title>About me 2</title>
+    <style>
+        body {
+            background-color: rgb(113, 139, 177);
+            background-image: linear-gradient(to top left,
+                    rgba(0, 0, 0, 0.2),
+                    rgba(0, 0, 0, 0.2) 50%,
+                    rgba(0, 0, 0, 0));
+            margin: 50px;
+            background-attachment: fixed;
+        }
+        .header {
+            color: ghostwhite;
+            text-align: start;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            text-shadow: 1px 1px 1px #000;
+            margin: 0%;
+
+        }
+        .pcPic {
+            width: 150px;
+            float: right;
+            padding-right: 10px;
+        }
+
+        .textContainer {
+            
+            color: ghostwhite;
+            text-align: start;
+            font-size: 22px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            text-shadow: 1px 1px 1px #000;
+
+        }
+
+        .btnContainer {
+            text-align: right;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .backBtn {
+            width: 200px;
+            height: 50px;
+            font-size: 20px;
+            background-color: rgb(134, 39, 39);
+            color: aliceblue;
+            border: 0;
+            line-height: 2, 5;
+            text-align: center;
+            text-shadow: 1px 1px 1px #000;
+            border-radius: 5px;
+            background-image: linear-gradient(to top left,
+                    rgba(0, 0, 0, 0.2),
+                    rgba(0, 0, 0, 0.2) 50%,
+                    rgba(0, 0, 0, 0))
+        }
+
+        .backBtn:hover {
+            background-color: rgb(209, 57, 57)
+        }
+
+        .backBtn:active {
+            box-shadow:
+                inset -2px -2px 3px rgba(255, 255, 255, 0.6),
+                inset 2px 2px 3px rgba(0, 0, 0, 0.6);
+        }
+        .endBtn {
+            width: 200px;
+            height: 50px;
+            font-size: 20px;
+            background-color: rgb(39, 134, 52);
+            color: aliceblue;
+            border: 0;
+            line-height: 2, 5;
+            text-align: center;
+            text-shadow: 1px 1px 1px #000;
+            border-radius: 5px;
+            background-image: linear-gradient(to top left,
+                    rgba(0, 0, 0, 0.2),
+                    rgba(0, 0, 0, 0.2) 50%,
+                    rgba(0, 0, 0, 0))
+        }
+
+        .endBtn:hover {
+            background-color: rgb(63, 235, 86)
+        }
+
+        .endBtn:active {
+            box-shadow:
+                inset -2px -2px 3px rgba(255, 255, 255, 0.6),
+                inset 2px 2px 3px rgba(0, 0, 0, 0.6);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <img src="./resources/itsme.jpg" alt="itsme"
+            style="width: 75px; float: left; padding-right: 10px;">
+        <p>
+        <h2>Hobbim</h2>
+        </p>
+    </div>
+    <br>
+    <br>
+    <div class="textContainer">
+        <p>
+            Szabadidőmben szoktam:
+            <ul>
+                <li>Gitározni</li>
+                <li>Videójátékkal játszani</li>
+                <li>Edzeni</li>
+                <li>Eljárni szórakozni a barátokkal</li>
+                <li>Utazni</li>
+                <li>Autómmal foglakozni</li>
+                <li>Új informatikai készségeket megtanulni</li>
+                <li>Forma-1-et nézni</li>
+            </ul>
+            
+        </p>
+                
+    </div>
+
+    <div class="btnContainer">
+        <button class="backBtn" type="button"
+            onclick="window.open('aboutme3.html','_self')">Vissza</button>
+        </button>
+        <button class="endBtn" type="button"
+            onclick="window.open('aboutmeEnd.html','_self')">Vége</button>
+        </button>
+    </div>
+</body>
+
+</html>

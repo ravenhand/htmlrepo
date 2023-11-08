@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+    <title>About me</title>
+    <style>
+        body, html {
+            background-color: rgb(113, 139, 177);
+            background-image: linear-gradient(to top left,
+                    rgba(0, 0, 0, 0.2),
+                    rgba(0, 0, 0, 0.2) 50%,
+                    rgba(0, 0, 0, 0));
+            background: no-repeat center center cover;
+            background-attachment: fixed;
+        
+        }
+
+        .itsme {
+            width: 15%;
+            height: 15%;
+            text-align: center;
+        }
+
+        .intro {
+            border-style: inset;
+            border-width: 10px;
+            color: ghostwhite;
+            text-align: center;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            justify-content: center;
+            align-items: center;
+            text-shadow: 1px 1px 1px #000;
+
+
+        }
+
+        .continueBtn {
+            width: 200px;
+            height: 50px;
+            font-size: 20px;
+            background-color: rgb(39, 63, 134);
+            color: aliceblue;
+            border: 0;
+            line-height: 2, 5;
+            text-align: center;
+            text-shadow: 1px 1px 1px #000;
+            border-radius: 5px;
+            background-image: linear-gradient(to top left,
+                    rgba(0, 0, 0, 0.2),
+                    rgba(0, 0, 0, 0.2) 50%,
+                    rgba(0, 0, 0, 0))
+        }
+
+        .continueBtn:hover {
+            background-color: rgb(65, 105, 225)
+        }
+
+        .continueBtn:active {
+            box-shadow:
+                inset -2px -2px 3px rgba(255, 255, 255, 0.6),
+                inset 2px 2px 3px rgba(0, 0, 0, 0.6);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="intro">
+        <h1>Sziasztok!</h1>
+        <img class="itsme" src="./resources/itsme.jpg"
+            alt="itsme">
+        <h2>Novák Bálint vagyok. <br>
+            <p>A további pár percben rólam fogtok megtudni
+                pár
+                dolgot.</p>
+        </h2>
+        <h3><button class="continueBtn"
+                type="button" onclick="window.open('aboutme2.html','_self')">Tartsatok
+                velem!</button></h3>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+    <title>About me 2</title>
+    <style>
+        body {
+            background-color: rgb(113, 139, 177);
+            background-image: linear-gradient(to top left,
+                    rgba(0, 0, 0, 0.2),
+                    rgba(0, 0, 0, 0.2) 50%,
+                    rgba(0, 0, 0, 0));
+            margin: 50px;
+            background-attachment: fixed;
+        }
+
+        .pcPic {
+            width: 150px;
+            float: right;
+            padding-right: 10px;
+        }
+
+        .header {
+            color: ghostwhite;
+            text-align: start;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            text-shadow: 1px 1px 1px #000;
+            margin: 0%;
+
+        }
+
+        .textContainer {
+            display: inline-table;
+            color: ghostwhite;
+            text-align: start;
+            font-size: 22px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            text-shadow: 1px 1px 1px #000;
+
+        }
+
+        .btnContainer {
+            text-align: right;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .backBtn {
+            width: 200px;
+            height: 50px;
+            font-size: 20px;
+            background-color: rgb(134, 39, 39);
+            color: aliceblue;
+            border: 0;
+            line-height: 2, 5;
+            text-align: center;
+            text-shadow: 1px 1px 1px #000;
+            border-radius: 5px;
+            background-image: linear-gradient(to top left,
+                    rgba(0, 0, 0, 0.2),
+                    rgba(0, 0, 0, 0.2) 50%,
+                    rgba(0, 0, 0, 0))
+        }
+
+        .backBtn:hover {
+            background-color: rgb(209, 57, 57)
+        }
+
+        .backBtn:active {
+            box-shadow:
+                inset -2px -2px 3px rgba(255, 255, 255, 0.6),
+                inset 2px 2px 3px rgba(0, 0, 0, 0.6);
+        }
+
+        .nextBtn {
+            width: 200px;
+            height: 50px;
+            font-size: 20px;
+            background-color: rgb(39, 63, 134);
+            color: aliceblue;
+            border: 0;
+            line-height: 2, 5;
+            text-align: center;
+            text-shadow: 1px 1px 1px #000;
+            border-radius: 5px;
+            background-image: linear-gradient(to top left,
+                    rgba(0, 0, 0, 0.2),
+                    rgba(0, 0, 0, 0.2) 50%,
+                    rgba(0, 0, 0, 0))
+        }
+
+        .nextBtn:hover {
+            background-color: rgb(65, 105, 225)
+        }
+
+        .nextBtn:active {
+            box-shadow:
+                inset -2px -2px 3px rgba(255, 255, 255, 0.6),
+                inset 2px 2px 3px rgba(0, 0, 0, 0.6);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <img src="./resources/itsme.jpg" alt="itsme"
+            style="width: 75px; float: left; padding-right: 10px;">
+        <p>
+        <h2>Beállítottságom</h2>
+        </p>
+    </div>
+    <div class="textContainer">
+        <img src="./resources/pc-tech.jpg"
+            style="width: 25%; float: right;">
+        <p>Elvégeztem egy <b>Számítógép szerelő és
+                karbantartó</b>
+            tanfolyamot, mert úgy érzem van affinitásom ezen
+            a területen.
+        </p>
+        <img class="pcPic" src="./resources/pc.jpg"
+            style="width: 25%; float: left;">
+        <p>A számitógép mindig is közel állt hozzám, már 5
+            éves koromban is sokat ültem a gép előtt, így
+            nem volt kérdés hogy ilyen pályán tudom magamat
+            elképzelni.
+        </p>
+        <p>Jelenleg egy <b>Junior automata tesztelő</b>
+            képzést
+            kezdtem el, amit úgy érzek hogy ez az én
+            szakmám, mert szeretek megjavítani dolgokat,
+            segíteni helyzeteken és embereken is.</p>
+    </div>
+
+    <div class="btnContainer">
+        <button class="backBtn" type="button"
+            onclick="window.open('aboutme2.html','_self')">Vissza</button>
+        </button>
+        <button class="nextBtn" type="button"
+            onclick="window.open('aboutme4.html','_self')">Tovább</button>
+        </h3>
+    </div>
+</body>
+
+</html>

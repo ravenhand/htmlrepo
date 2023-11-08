@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+    <title>About me 2</title>
+    <style>
+        body {
+            background-color: rgb(113, 139, 177);
+            background-image: linear-gradient(to top left,
+                    rgba(0, 0, 0, 0.2),
+                    rgba(0, 0, 0, 0.2) 50%,
+                    rgba(0, 0, 0, 0));
+            margin: 50px;
+            background-attachment: fixed;
+        }
+
+        .budapest {
+            display: inline-table;
+            color: ghostwhite;
+            text-align: start;
+            font-size: 22px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            text-shadow: 1px 1px 1px #000;
+        }
+        .header {
+            color: ghostwhite;
+            text-align: start;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            text-shadow: 1px 1px 1px #000;
+            margin: 0%;
+
+        }
+
+        .bpPic {
+            float: right;
+        }
+        .guitarPic{
+            float: left;
+            padding-right: 10px;
+        }
+        .btnContainer {
+            text-align: right;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .backBtn {
+            width: 200px;
+            height: 50px;
+            font-size: 20px;
+            background-color: rgb(134, 39, 39);
+            color: aliceblue;
+            border: 0;
+            line-height: 2, 5;
+            text-align: center;
+            text-shadow: 1px 1px 1px #000;
+            border-radius: 5px;
+            background-image: linear-gradient(to top left,
+                    rgba(0, 0, 0, 0.2),
+                    rgba(0, 0, 0, 0.2) 50%,
+                    rgba(0, 0, 0, 0))
+        }
+
+        .backBtn:hover {
+            background-color: rgb(209, 57, 57)
+        }
+
+        .backBtn:active {
+            box-shadow:
+                inset -2px -2px 3px rgba(255, 255, 255, 0.6),
+                inset 2px 2px 3px rgba(0, 0, 0, 0.6);
+        }
+
+        .nextBtn {
+            width: 200px;
+            height: 50px;
+            font-size: 20px;
+            background-color: rgb(39, 63, 134);
+            color: aliceblue;
+            border: 0;
+            line-height: 2, 5;
+            text-align: center;
+            text-shadow: 1px 1px 1px #000;
+            border-radius: 5px;
+            background-image: linear-gradient(to top left,
+                    rgba(0, 0, 0, 0.2),
+                    rgba(0, 0, 0, 0.2) 50%,
+                    rgba(0, 0, 0, 0))
+        }
+
+        .nextBtn:hover {
+            background-color: rgb(65, 105, 225)
+        }
+
+        .nextBtn:active {
+            box-shadow:
+                inset -2px -2px 3px rgba(255, 255, 255, 0.6),
+                inset 2px 2px 3px rgba(0, 0, 0, 0.6);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <img src="./resources/itsme.jpg" alt="itsme"
+        style="width: 75px; float: left; padding-right: 10px;">
+    <p><h2>Korai életesemény és tanulmányaim</h2></p>
+    </div>
+    <br>
+    <div class="budapest">
+        <img class="bpPic"
+            src="./resources/budapest-img.jpg"
+            alt="budapest" style="width: 25%;">
+        <p>1991. április 28-án születtem, Budapesten. Azóta
+            is ebben a városban élek.</p>
+        <p>Általános és közép iskolai tanulmányaimat zenei
+            tagozaton végeztem el, ezáltal a zene nagyon
+            közel áll hozzám.</p>
+        <img class="guitarPic"src="./resources/guitar-chord.png"
+            style="width: 25%;">
+        <p>Ennek köszönhetően a zenélés is nagyon hamar
+            elkezdődött. 13 évesen kezdtem el
+            <b>gitározni</b>
+            megtanulni, amit a mai napig űzök.
+        </p>
+        <p>A rock és metal zenét ezzel egy időben kedveltem
+            meg, így nagyon sok inspirációt kaptam az olyan
+            zenekaroktól mint az <b>Iron Maiden, Metallica,
+            </b>stb.</p>
+    </div>
+    <div class="btnContainer">
+        <button class="backBtn" type="button"
+            onclick="window.open('aboutme.html','_self')">Vissza</button>
+        </button>
+        <button class="nextBtn" type="button"
+            onclick="window.open('aboutme3.html','_self')">Tovább</button>
+        </h3>
+    </div>
+</body>
+
+</html>
